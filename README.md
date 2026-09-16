@@ -94,17 +94,4 @@ Model Evaluation
 Customer Segmentation
         ↓
 Behavioral Insights
-```markdown
-
- Phase 1 — Data Preparation & Exploration
-
-The first phase focuses on understanding, cleaning...
-    
-Activities Performed
-• Loaded dataset
-• Inspected structure
-• Checked missing values
-• Performed EDA
-...
-
-
+---
