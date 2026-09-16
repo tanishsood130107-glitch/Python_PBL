@@ -75,31 +75,36 @@ The dataset includes categories such as:
 
 ---
 
-# 🔄 Project Workflow
+🔄 Project Workflow
+┌─────────────────────────────┐
+│ Retail Customer Data        │
+│            ↓                │
+│ Data Cleaning & Processing  │
+│            ↓                │
+│ EDA                         │
+│            ↓                │
+│ Feature Selection           │
+│            ↓                │
+│ Feature Scaling             │
+│            ↓                │
+│ Clustering                  │
+│            ↓                │
+│ Model Evaluation            │
+│            ↓                │
+│ Customer Segmentation       │
+│            ↓                │
+│ Behavioral Insights         │
+└─────────────────────────────┘
 
-```text
-Retail Customer Data
-        ↓
-Data Cleaning & Preprocessing
-        ↓
-Exploratory Data Analysis
-        ↓
-Feature Selection
-        ↓
-Feature Scaling
-        ↓
-Clustering
-        ↓
-Model Evaluation
-        ↓
-Customer Segmentation
-        ↓
-Behavioral Insights
-**This workflow transforms raw customer data into meaningful behavioral segments that can be used for targeted marketing and customer analysis.**
+🧹 Phase 1 — Data Preparation & Exploration
 
-
-
-
-
+The first phase focuses on understanding, cleaning...
+    
+Activities Performed
+• Loaded dataset
+• Inspected structure
+• Checked missing values
+• Performed EDA
+...
 
 
