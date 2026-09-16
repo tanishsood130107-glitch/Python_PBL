@@ -141,7 +141,7 @@ The final analysis converts the clustering results into **meaningful customer se
 
 ---
 
-### K-Means Clustering
+## K-Means Clustering
 
 K-Means clustering was used to group customers with similar purchasing behavior.
 
@@ -149,20 +149,46 @@ The algorithm divides customers into K clusters by minimizing the distance betwe
 
 Different values of K were tested and evaluated using the Silhouette Score.
 
-### DBSCAN Clustering
+### K-Means Silhouette Scores
+
+| Number of Clusters (K) | Silhouette Score |
+|---:|---:|
+| K = 2 | **0.790986** |
+| K = 3 | **0.693084** |
+| K = 4 | **0.668190** |
+| K = 5 | **0.588352** |
+| K = 6 | **0.558385** |
+
+
+## DBSCAN Clustering
 
 The project also explored DBSCAN (Density-Based Spatial Clustering of Applications with Noise).
 
-The configuration used:
-
-eps = 0.5
-minPts = 10
-
-The resulting silhouette score was:
-
-0.718789
-
 DBSCAN was explored as an alternative to centroid-based clustering because it can identify dense groups and handle noise/outliers.
+
+### DBSCAN Silhouette Score
+
+The DBSCAN model was evaluated using the following configuration:
+
+| Parameter | Value |
+|---|---:|
+| `eps` | 0.5 |
+| `minPts` | 10 |
+| **Silhouette Score** | **0.718789** |
+
+### 📈 Score Comparison
+
+| Clustering Method | Configuration | Silhouette Score |
+|---|---|---:|
+| K-Means | K = 2 | **0.790986** |
+| K-Means | K = 3 | **0.693084** |
+| K-Means | K = 4 | **0.668190** |
+| K-Means | K = 5 | **0.588352** |
+| K-Means | K = 6 | **0.558385** |
+| DBSCAN | eps = 0.5, minPts = 10 | **0.718789** |
+
+> **Note:** The Silhouette Score is used as an evaluation metric to compare the clustering results. Higher values generally indicate better separation between clusters and greater similarity within the same cluster.
+
 
 ### Model Evaluation
 
