@@ -211,6 +211,24 @@ This project demonstrates how machine learning can be applied to customer transa
 
 By combining data preprocessing, exploratory analysis, feature scaling, K-Means clustering, DBSCAN, and cluster evaluation, the project provides a structured approach to understanding customer behavior and developing meaningful customer segments.
 
+---
+
+## Team Members
+
+This project was developed by a team of three members as part of the **Python PBL**.
+
+| Name | Role | Contribution |
+|---|---|---|
+| **Tanish Sood** | Team Lead | Project planning, team coordination, and overall project development |
+| **Sambhawi Pandey** | Testing | Data preprocessing, exploratory data analysis, and documentation |
+| **Chirag Varshney** | Developer | Feature engineering, clustering, and model evaluation |
+
+###  Team Collaboration
+
+The project was completed collaboratively, with team members contributing to **data preparation, exploratory data analysis, feature engineering, clustering, model evaluation, documentation, and presentation**.
+
+---
+
 ### Repository Structure
 ```text
 Python_PBL/
