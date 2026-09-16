@@ -95,9 +95,7 @@ Model Evaluation
 Customer Segmentation
         ↓
 Behavioral Insights
-
-
-
+**This workflow transforms raw customer data into meaningful behavioral segments that can be used for targeted marketing and customer analysis.**
 
 
 
