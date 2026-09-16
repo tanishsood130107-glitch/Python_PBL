@@ -94,6 +94,7 @@ Model Evaluation
 Customer Segmentation
         ↓
 Behavioral Insights
+```markdown
 
  Phase 1 — Data Preparation & Exploration
 
