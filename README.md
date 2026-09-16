@@ -74,24 +74,6 @@ The dataset includes categories such as:
 - Others
 
 ---
-# 🔄 Project Workflow
+## Project Workflow
 
-```text
-Retail Customer Data
-        ↓
-Data Cleaning & Preprocessing
-        ↓
-Exploratory Data Analysis
-        ↓
-Feature Selection
-        ↓
-Feature Scaling
-        ↓
-Clustering
-        ↓
-Model Evaluation
-        ↓
-Customer Segmentation
-        ↓
-Behavioral Insights
----
+**Retail Customer Data → Data Cleaning & Preprocessing → Exploratory Data Analysis → Feature Selection → Feature Scaling → Clustering → Model Evaluation → Customer Segmentation → Behavioral Insights**
