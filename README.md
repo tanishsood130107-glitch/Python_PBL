@@ -74,29 +74,28 @@ The dataset includes categories such as:
 - Others
 
 ---
+# 🔄 Project Workflow
 
-🔄 Project Workflow
-┌─────────────────────────────┐
-│ Retail Customer Data        │
-│            ↓                │
-│ Data Cleaning & Processing  │
-│            ↓                │
-│ EDA                         │
-│            ↓                │
-│ Feature Selection           │
-│            ↓                │
-│ Feature Scaling             │
-│            ↓                │
-│ Clustering                  │
-│            ↓                │
-│ Model Evaluation            │
-│            ↓                │
-│ Customer Segmentation       │
-│            ↓                │
-│ Behavioral Insights         │
-└─────────────────────────────┘
+```text
+Retail Customer Data
+        ↓
+Data Cleaning & Preprocessing
+        ↓
+Exploratory Data Analysis
+        ↓
+Feature Selection
+        ↓
+Feature Scaling
+        ↓
+Clustering
+        ↓
+Model Evaluation
+        ↓
+Customer Segmentation
+        ↓
+Behavioral Insights
 
-🧹 Phase 1 — Data Preparation & Exploration
+ Phase 1 — Data Preparation & Exploration
 
 The first phase focuses on understanding, cleaning...
     
